@@ -337,9 +337,51 @@ body{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .right-container {
+    display: flex;
+  }
+  .carousel-container {
+    height: 400px;
+  }
+  .slider img {
+    width: 100%;
+  }
+  .movie-des {
+    width: 100%;
+  }
+  .search-box {
+    width: 130px;
+  }
+  .sub-btn {
+    padding: 0 10px;
+  }
+  .search-box:focus{
+    width: 150px;
+    border-color: #1f80e0;
+  }
+  .login-link {
+    margin-top: 6px;
+  }
+}
 
-
-
-
-
+/* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .carousel-container {
+    height: 400px;
+  }
+  .slider img {
+    width: 100%;
+  }
+  .movie-title {
+    padding-left: 25px;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  .movie-des {
+    width: 22rem;
+    padding-left: 25px;
+  }
+}
 
